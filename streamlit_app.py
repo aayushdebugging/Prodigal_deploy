@@ -4,8 +4,7 @@ import requests
 from sentence_transformers import SentenceTransformer, util
 
 # Set your Gemini API key here
-api_key = "AIzaSyB_bDHH-vwENqIg-Kw4vgfF1FhLwge9jN8"  # Replace with your actual API key
-
+api_key = "AIzaSyB_bDHH-vwENqIg-Kw4vgfF1FhLwge9jN8" 
 # Initialize the SentenceTransformer model
 model = SentenceTransformer('all-MiniLM-L6-v2')
 
